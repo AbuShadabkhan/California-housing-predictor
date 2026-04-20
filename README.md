@@ -26,9 +26,23 @@ An end-to-end Machine Learning project that predicts California median house pri
 ## 🖥️ Live Demo
 
 ### Swagger UI — POST /predict
-![API Response](https://github.com/copilot/c/c7f2c85b-c321-4663-aadc-c5be5943c843)
+![API Response](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/swagger_demo.jpeg)
 
 > Predicted **$443,271.48** for a NEAR BAY district with median income of 8.3 (≈$83,000/year)
+
+---
+
+## 📈 EDA Preview  
+![Geographical Analysis](plots/geographical_analysis.png)
+![Correlation_heatmap](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/correlation_heatmap.png)
+![Feature_distributions](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/feature_distributions.png)
+![Feature_engineering](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/feature_engineering.png)
+![Income_category](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/income_category.png)
+![Income_vs_house_value](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/income_vs_value.png)
+![Missing_values](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/missing_values.png)
+![Ocean_proximity](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/ocean_proximity_analysis.png)
+![Target_correlation](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/target_correlation.png)
+![Target_distribution](https://github.com/AbuShadabkhan/California-housing-predictor/blob/main/plots/target_distribution.png)
 
 ---
 
