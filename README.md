@@ -69,7 +69,7 @@ california-housing-predictor/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/AbuShadabkhan/california-housing-predictor.git
+git clone https://https://github.com/AbuShadabkhan/California-housing-predictor
 cd california-housing-predictor
 
 # 2. Install dependencies
