@@ -53,5 +53,10 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
+          rm -rf plots
+          git config user.email "actions@github.com"
+          git config user.name "github-actions"
+          git add -A
+          git commit -m "Remove plots folder for HF Space deployment" --allow-empty
           git remote add space https://Shaddy001:$HF_TOKEN@huggingface.co/spaces/Shaddy001/california-housing-predictor
           git push --force space main
