@@ -56,7 +56,8 @@ jobs:
           rm -rf plots
           git config user.email "actions@github.com"
           git config user.name "github-actions"
+          git checkout --orphan hf_deploy
           git add -A
-          git commit -m "Remove plots folder for HF Space deployment" --allow-empty
+          git commit -m "Deploy to HF Space"
           git remote add space https://Shaddy001:$HF_TOKEN@huggingface.co/spaces/Shaddy001/california-housing-predictor
-          git push --force space main
+          git push --force space hf_deploy:main
