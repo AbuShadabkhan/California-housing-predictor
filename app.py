@@ -6,7 +6,6 @@ from huggingface_hub import hf_hub_download
 from fastapi import FastAPI
 from pydantic import BaseModel
 import uvicorn
-import threading
 
 # ── Load model & pipeline from HuggingFace Model Hub ─────
 REPO_ID = "Shaddy001/california-housing-predictor"
