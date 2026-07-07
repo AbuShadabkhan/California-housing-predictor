@@ -1,3 +1,14 @@
+---
+title: California Housing Predictor
+emoji: 🏠
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "4.44.0"
+app_file: app.py
+pinned: false
+---
+
 # 🏠 California Housing Price Predictor
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python)
